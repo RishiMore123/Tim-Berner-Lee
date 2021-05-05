@@ -1,7 +1,7 @@
 body{
 margin: 0;
     padding-top: 800px;
-    
+  text-align: center;  
 } 
 .profile{
     width: 175px;
@@ -43,7 +43,7 @@ h1{
 }
 .line{
     height: 6px;
-    background-color: cornsilk;
+    background-color: darkblue;
     width: 70px;
     margin: 8px auto;
 }
@@ -87,6 +87,15 @@ h2{
     
 }
 .link:hover{
-    background-color:blue;
+    background-color:green;
     
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: darkorange;
+}
+html{
+    scroll-behavior: smooth;
 }
